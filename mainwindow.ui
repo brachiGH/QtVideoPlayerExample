@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>575</height>
+    <width>1380</width>
+    <height>720</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,8 +22,8 @@
      <rect>
       <x>5</x>
       <y>5</y>
-      <width>790</width>
-      <height>450</height>
+      <width>801</width>
+      <height>451</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -46,7 +46,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>backward</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_Play_Pause">
@@ -59,7 +59,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Pause</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_Stop">
@@ -72,7 +72,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Stop</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_Seek_Forward">
@@ -85,7 +85,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>forward</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_Volume">
@@ -106,8 +106,8 @@
      <rect>
       <x>660</x>
       <y>510</y>
-      <width>131</width>
-      <height>22</height>
+      <width>141</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="orientation">
@@ -117,7 +117,7 @@
    <widget class="QSlider" name="horizontalSlider_Duration">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>90</x>
       <y>460</y>
       <width>631</width>
       <height>22</height>
@@ -132,7 +132,7 @@
      <rect>
       <x>10</x>
       <y>460</y>
-      <width>71</width>
+      <width>81</width>
       <height>16</height>
      </rect>
     </property>
@@ -149,9 +149,9 @@
    <widget class="QLabel" name="label_Total_Time">
     <property name="geometry">
      <rect>
-      <x>720</x>
+      <x>730</x>
       <y>460</y>
-      <width>71</width>
+      <width>81</width>
       <height>16</height>
      </rect>
     </property>
@@ -165,13 +165,23 @@
      <string>00:00:00</string>
     </property>
    </widget>
+   <widget class="QTreeView" name="FIlesTree">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>160</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1380</width>
      <height>19</height>
     </rect>
    </property>
