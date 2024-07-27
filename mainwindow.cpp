@@ -23,6 +23,12 @@ MainWindow::MainWindow(QWidget *parent)
 
     AudioOutput->setVolume(ui->horizontalSlider_Volume->value());
 
+    ui->horizontalSlider_Duration->setStyleSheet(
+        "QSlider::handle:horizontal {"
+        "background: transparent;"
+        "width: 0px;"
+        "}");
+
     connect(Player, &QMediaPlayer::durationChanged, this, &MainWindow::durationChanged);
     connect(Player, &QMediaPlayer::positionChanged, this, &MainWindow::positionChanged);
 
@@ -81,12 +87,6 @@ void MainWindow::on_actionOpen_triggered()
     Video->setVisible(true);
 
     Video->show();
-}
-
-
-void MainWindow::on_horizontalSlider_Duration_valueChanged(int value)
-{
-    Player->setPosition(value * 1000);
 }
 
 

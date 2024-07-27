@@ -27,15 +27,13 @@ private slots:
 
     void on_actionOpen_triggered();
 
-    void on_horizontalSlider_Duration_valueChanged(int value);
+    void on_horizontalSlider_Volume_valueChanged(int value);;
 
     void on_pushButton_Play_Pause_clicked();
 
     void on_pushButton_Stop_clicked();
 
     void on_pushButton_Volume_clicked();
-
-    void on_horizontalSlider_Volume_valueChanged(int value);
 
     void on_pushButton_Seek_Backward_clicked();
 
