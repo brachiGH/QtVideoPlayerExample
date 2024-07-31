@@ -50,7 +50,9 @@ void MainWindow::positionChanged(qint64 duration)
 {
     if (!ui->horizontalSlider_Duration->isSliderDown())
     {
+        programmaticChangeDuration = true;
         ui->horizontalSlider_Duration->setValue(duration / 1000);
+        programmaticChangeDuration = false;
     }
     updateDuration(duration / 1000);
 }
