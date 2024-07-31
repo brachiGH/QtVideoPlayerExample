@@ -47,6 +47,7 @@ private:
     qint64 mDuration;
     bool IS_Pause = true;
     bool IS_Muted = false;
+    bool programmaticChangeDuration = false;
 
     void updateDuration(qint64 Duration);
 };
